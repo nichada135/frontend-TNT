@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import About from './about'
 
-const data:string[] =['a','b','c']
+const data:string[] =['a','b','c','z']
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -15,6 +15,8 @@ function App() {
       <div className="main">
        <h1>hello react</h1>
        <About data = {data} func ={setState}/>
+       <h1>{state}</h1>
+       <h1>{state}</h1>
        <h1>{state}</h1>
        <input onChange={(e) => setState(state + e.target.value)}/>
        {/*<button onClick={() => setState("state set!")}> click me </button>*/}
